@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    background-color: mediumpurple;
+    padding: 1rem;
+}
+body {
+    text-align: center;
+}
+#Selection {
+    border: blue dashed 3px;
+    padding: 1rem;
+    margin :1rem;
+}
+#Selection-date{
+    border: blue dashed 3px;
+    padding: 1rem;
+    margin :1rem;
+}
+#Resultats{
+    border: cornflowerblue dashed 3px;
+    padding: 1rem;
+    margin :1rem;
+}
+
+ul {
+    list-style-type: none;
+}
