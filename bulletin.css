@@ -16,12 +16,23 @@ body {
     padding: 1rem;
     margin :1rem;
 }
+
+/*# devant le nom quand on dispose d'un ID", sinon un point . quand il s'agit d'une classe*/
 #Resultats{
     border: cornflowerblue dashed 3px;
     padding: 1rem;
     margin :1rem;
 }
 
+
+/*pour supprimer les puces*/
 ul {
     list-style-type: none;
 }
+
+
+/* permet de creer un espace de meme valeru entre chaque "enfants" du formulaire*/
+form>*{
+    margin :1rem;
+}
+
