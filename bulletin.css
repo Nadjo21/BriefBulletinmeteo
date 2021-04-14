@@ -36,3 +36,11 @@ form>*{
     margin :1rem;
 }
 
+tbody{
+
+    background: antiquewhite;
+}
+
+table{
+    margin: auto;
+}

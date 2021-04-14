@@ -15,6 +15,7 @@ selectionOption.addEventListener("change", function () {
 
 // Quand on clique sur le Menu - Dernières Mesures
 document.getElementById("titre1").addEventListener("click", function () {
+
     // On fait une boucle pour supprimer le dernier paragraphe affiché
     const sectionResult = document.getElementById("Resultats");
     const elementNumber = sectionResult.childElementCount;
@@ -134,6 +135,7 @@ document.getElementById("titre3").addEventListener("click", function () {
     champStart.textContent = "Date";
     champStart.type = "datetime-local";
     champStart.id = "startDateId";
+    champStart.value="2021-04-12T10:00";
 
     const endDate = document.createElement("label");
     formulaire.appendChild(endDate);
@@ -144,6 +146,7 @@ document.getElementById("titre3").addEventListener("click", function () {
     champEnd.textContent = "Date";
     champEnd.type = "datetime-local";
     champEnd.id = "endDateId";
+    champEnd.value="2021-04-12T10:00"
 
 
     const button = document.createElement("button");
